@@ -1,0 +1,25 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'                  #官方仓库地址 cdn
+source 'https://github.com/lyleLH/MTSpecs.git'
+
+
+
+flutter_application_path = '../my_flutter_module'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+
+
+platform :ios, '10.0'
+
+target 'FlutterPlayground' do
+  pod 'CYLTabBarController'
+
+  pod 'MTCategoryComponent'
+  # ${INCLUDED_PODVERSIONS}
+  install_all_flutter_pods(flutter_application_path)
+end
+
+# target 'FlutterPlayground_Tests', :exclusive => true do
+#   pod 'MTCategoryComponent'
+#   # ${INCLUDED_PODVERSIONS}
+# end

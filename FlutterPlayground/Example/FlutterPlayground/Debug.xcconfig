@@ -1,0 +1,13 @@
+//
+//  Debug.xcconfig
+//  FlutterPlayground
+//
+//  Created by Tom on 2021/3/11.
+//  Copyright © 2021 Tom. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-FlutterPlayground/Pods-FlutterPlayground.debug.xcconfig"
+#include "Flutter.xcconfig"

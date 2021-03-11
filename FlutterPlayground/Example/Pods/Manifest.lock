@@ -1,0 +1,42 @@
+PODS:
+  - CYLTabBarController (1.29.0):
+    - CYLTabBarController/Core (= 1.29.0)
+  - CYLTabBarController/Core (1.29.0)
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - MTCategoryComponent (1.0.0)
+  - my_flutter_module (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - CYLTabBarController
+  - Flutter (from `../my_flutter_module/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../my_flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - MTCategoryComponent
+  - my_flutter_module (from `../my_flutter_module/.ios/Flutter`)
+
+SPEC REPOS:
+  https://github.com/lyleLH/MTSpecs:
+    - MTCategoryComponent
+  trunk:
+    - CYLTabBarController
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../my_flutter_module/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../my_flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter_module:
+    :path: "../my_flutter_module/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
+  MTCategoryComponent: 357a1ebeecf83d09c7a5a06004c12b976a77e784
+  my_flutter_module: 33bd220e051153cf8238e903c28c0f2971385df9
+
+PODFILE CHECKSUM: 47fef8d3c59634298e3834579f575b2daed64fb3
+
+COCOAPODS: 1.9.3

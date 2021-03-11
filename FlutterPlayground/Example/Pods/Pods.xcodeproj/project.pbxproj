@@ -1,0 +1,1316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B26E11467D023FA6CDCE36F75198812F /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		97665C792C004BE3B6CD6CB612B64E51 /* my_flutter_module */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DC729987B44DAEE29CEBFDAF4FE3B2DD /* Build configuration list for PBXAggregateTarget "my_flutter_module" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4BFE63A1DD6BE5B368E1019EC6382734 /* PBXTargetDependency */,
+			);
+			name = my_flutter_module;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0380D40E715B2062B350079D04366DF8 /* MTCategoryComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D980D9B1A0E924795BCAAD94882559 /* MTCategoryComponent-dummy.m */; };
+		0CFEE7357D09344FEF39967536E20ED1 /* NSData+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E94C012C2ECEBB3E9B27BDFCFE32CCE1 /* NSData+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F4ABC7D0AD985126C429938EF793834 /* NSMutableArray+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC787C6BF3C0508DA464C54EAEC16AE /* NSMutableArray+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10D9785FF7615A6FEDACD56F75E7A5CE /* NSMutableDictionary+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6608C458A6AE3C341A60635CAD949D /* NSMutableDictionary+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19F7000AF808310FBB4C70AA61FA3D14 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862726CA2FC00D569FF64BCC4A94EF4 /* CYLPlusButton.m */; };
+		1BDDDF40876697ACB969C6E9443A51EB /* Pods-FlutterPlayground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93ABE23EB3C434F25354631014AB1 /* Pods-FlutterPlayground-dummy.m */; };
+		1BF0B9FBD525AD80AB7CA4F9E062D66B /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5CE7643CF19179D370EE3EDEB87C1F /* CYLTabBar+CYLTabBarControllerExtention.m */; };
+		1E502BD8B515C80BB896E7519516068D /* NSDate+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A1902111FAB87C60E1D7E596F3BA7E16 /* NSDate+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EFFF72D2D5D46EC291CC19F98A49DEB /* NSMutableDictionary+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 58131570957A9803FF03A79CCAD56616 /* NSMutableDictionary+Swizzling.m */; };
+		2F198F661A26CA430F2DAE87F73521D0 /* CYLBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 461FDF286830C44EB7524CE2EC5FD78A /* CYLBaseTableViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30DE5CBAB153E04DE231C14B9ECB1FDF /* CYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3047BFF33B9B76DBC054D8EB65780C /* CYLBaseViewController.m */; };
+		3549A100F6A0725C399733E17E07D0BF /* UIBarButtonItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 56768EC4C8CE6D1300441F175CB8C40F /* UIBarButtonItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AE3F4B93B5A7551C5AF7241BABCFA86 /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF685E271B1844BBCB902D11BC271269 /* CYLBaseNavigationController.m */; };
+		4A00AD9DF572983961066CA58AB341F3 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B770E32CAC3CA1C73247E46958BAE2 /* CYLTabBar.m */; };
+		4DC10479EEB1FF57B324A6F497478317 /* CAAnimation+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1047DC53814319107F15E5B2FD1CAD /* CAAnimation+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55C7DF74451FC4F930DA9A9D110AE9F3 /* NSMutableDictionary+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CBCE23F22012BFC3E9DFFB4A0EDE57 /* NSMutableDictionary+MTExtension.m */; };
+		581CC22607FB27E2E11E34C1E8F9FBB2 /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 9745D1A9E1FD8E74F7CC3B1FD0AC5511 /* UIViewController+CYLTabBarControllerExtention.m */; };
+		5BB85AEE1AB641101EBB256105174FDA /* MTCategoryComponentHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D3D014E1321A989AAA292109EFCA2B /* MTCategoryComponentHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C79FB7665C4782C8211CF7E091547AE /* NSMutableArray+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE515850C0991697A574CF81947D92E8 /* NSMutableArray+MTExtension.m */; };
+		5E2A2BA7D376CEE44CE46335385F38D6 /* CYLTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3F6C977082F771E32D3FA6DDA244E /* CYLTabBarController-dummy.m */; };
+		63FAA34023BB30375F0C3BB5EFB081A7 /* NSObject+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = F30A458A562CC4A0F4AB3C358D836532 /* NSObject+CYLTabBarControllerExtention.m */; };
+		64B242FCB733D9D17F2CE98C1A36C811 /* CYLTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE73AC279B1F6F946BF043A258E7853 /* CYLTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66584524291FCEED64DCD1593E74370A /* UIImage+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2847E5A6C14244E059375CB76ADC701C /* UIImage+CYLTabBarControllerExtention.m */; };
+		6D2120EEC7A4DA147E22DE28EA7E9D92 /* NSString+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4874DE8EB952B9726DCC1F80B9ACF673 /* NSString+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D72941BAD50DD39577C35EF04512792 /* NSObject+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8FB9F3A807A156D50C3FD4FB2F8073 /* NSObject+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		701CD75B63966D56E2D0589FA53C226F /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8EBDCD0136136C2378B69579D99124 /* UIView+CYLBadgeExtention.m */; };
+		7441F4D5C2E9C3BC3A00107B797B4B3A /* FlutterPluginRegistrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B3B55F6BE0DD2D23928F16C6DDE409 /* FlutterPluginRegistrant-dummy.m */; };
+		76D8A53D51D7C2615B54CB603138D26E /* UIColor+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 144F6ECABA32A02FE56BF4F5F5034395 /* UIColor+MTExtension.m */; };
+		7D4C08419F68251786F1F43A54F6E128 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211E7E2DC427127A4CFA7A764C028299 /* CYLTabBarController.m */; };
+		7D9E913DA86FB3558CCA62E71058E799 /* NSObject+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC409BD12AAAEEE4922C82DFCABA668 /* NSObject+MTExtension.m */; };
+		86507D966CE07114AD53C068C68C2A27 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DD1CEE08B447340B78E845C873C3BA /* GeneratedPluginRegistrant.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8A14AD0139D67FD2D8F4EAA4377E2E2A /* NSObject+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E35FC7E199DC22A0D5A3B9B5C5557E84 /* NSObject+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9361B736B9B5A85A4D2441FF15ED01FA /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC638A18E375BD8EEA2244C1A6B600 /* UIView+CYLTabBarControllerExtention.m */; };
+		9404B92F6779CFEA97D27E74F34E9023 /* UIColor+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F8FB9E5C3D6FE636C1290862E2EE06 /* UIColor+CYLTabBarControllerExtention.m */; };
+		96839C0301DB7FF2F4150641D254E345 /* UIImage+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBB7F4E83F41A561DBDD67D46335A7D /* UIImage+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9865184D68C9F42E9D9FAC8E1F064407 /* CYLBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 788CBBC4BDB3FAFF88D80D14F05B6137 /* CYLBaseNavigationController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		993D83F58774EAA3EF0928DE292C6B29 /* NSMutableDictionary+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 5637612D3415E93A48C56219E09A5303 /* NSMutableDictionary+Swizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99C84EC67FEBF0F224574970D5534B69 /* UIView+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 5068827308412974BB18E0FBFC985948 /* UIView+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99D781A183F5F091D2A193438B9700FF /* UIImage+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C79B09156B0ABBD979BE0C6CFF4744 /* UIImage+MTExtension.m */; };
+		9A6C6517C2021485CF930B406717288F /* NSObject+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = AE531E405BC3151FC0F1277C5B8560CE /* NSObject+Swizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D6AF0CA39F89C08E2CF768C3C3001C7 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 3952C355338A1A482A975C33070ADE46 /* UITabBarItem+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EF189E65648934156E08868288AA66A /* UIColor+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = DE19D851E118523F4463AF92A2AC7324 /* UIColor+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1134C3948B6E3CC91E9D16C15DBF32A /* UIBarButtonItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DA3FE5B811A78DA121E2762D1CADCC /* UIBarButtonItem+CYLBadgeExtention.m */; };
+		ADE9218AB6934CDFE20F26B95E57C8ED /* CYLBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 57247B8BE31994041595EA7229D25381 /* CYLBadgeProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0796DA4393FD99EFFE3D48B6D2BD1F2 /* UIViewController+CYLNavigationControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80317009EFF2CB8E2471363DBF99524A /* UIViewController+CYLNavigationControllerExtention.m */; };
+		B5F59742B2FF034E3E8401297FCB8C0D /* UIControl+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = E848AF9A375BB591F6593757CF298256 /* UIControl+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B78D2747C1EF1E5CA0D0B1008A3CCDD5 /* FlutterPluginRegistrant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B586B77F7F9000BD54304C5091426725 /* FlutterPluginRegistrant-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8323DF0D8BE17E6DA75C46FD950ADCD /* NSDate+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C59E47CE7EE9519A11C25DBD4C040C /* NSDate+MTExtension.m */; };
+		BB81E1965B6C313E7AE508FB1DD48130 /* UIColor+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C94D02ABBE4657949463042E7D809D /* UIColor+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC5CD7A7F8EADBB229F94C5E8738CDA5 /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA3FBF7A9B1F225C95CD44B0DF7F039 /* UITabBarItem+CYLBadgeExtention.m */; };
+		BD90F65457B6EB11ADD675E3AFBD96B4 /* UIImage+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE7176BE88AB3417E2EDAE7E797C7C4 /* UIImage+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDA77A6756453DA98197AACAE7A95CF7 /* CYLTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 951FEFFD8A50EB20E27EF344C733A8C1 /* CYLTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF1D156564A3725C3B1D2531F5E4F87A /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F9157EAE6A0827A2D56597380E3CA3 /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3270646E3CD681DDBFB5EE521D50B8E /* UIViewController+CYLNavigationControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = F1342C435D22526E979C04CB8752A99A /* UIViewController+CYLNavigationControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C333A92C9F2D882E089C41F0EF7FDAAD /* NSString+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D821C3440E9585E9653F480D1343A /* NSString+MTExtension.m */; };
+		C496D7852FA83624BC210F61561A7E9A /* NSArray+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E21C8BF33543B693DD1C48E7198C7A /* NSArray+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8F60662B23E7F4F76D07091699E4801 /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 8634131EC3453ACAAB09BC70FC5760FE /* NSArray+Swizzling.m */; };
+		CEC13B6A83C7977B60F217666A4A0B28 /* CYLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C519CDC9748EDAC2794D70577D9B6FC7 /* CYLBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D393CD175B73AB48AF4F817231CD134B /* UIViewController+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D6320DD9009BF1C3D42714779932C0 /* UIViewController+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D76251A6C80C194D59BAD686FC622B77 /* CYLTabBar+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DF9A8847D8C14A44A636A0458670E7 /* CYLTabBar+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E06DC345C9E8C91832F92811B5EB5434 /* NSArray+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BA43E792B1C2516EB55124D64BE15DC1 /* NSArray+MTExtension.m */; };
+		E16934A6251FEE1ED00CFB4368C764EF /* CYLPlusButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AD4C3F6ABD89ADB267C2C1829728CF /* CYLPlusButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7C83D88913131B672FAC798B0307C26 /* CAAnimation+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E4123DAD0974604D54D2C8E461708 /* CAAnimation+CYLBadgeExtention.m */; };
+		E86750906F59320221EE094A1FCD4067 /* UIView+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AB68DD7C47B5518F7CC6269240DB9C /* UIView+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA47C9B1D7EEB406307C1B0060ADC3CE /* NSData+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 933C15C35E1AB43B9800872BBB952FB1 /* NSData+MTExtension.m */; };
+		EC3D473E865ABE7312F7641BBF43D10D /* NSDictionary+MTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 515B8F4997715CFF82CC8434DFB1B7D7 /* NSDictionary+MTExtension.m */; };
+		EC507B7C206F097B5B4F08A6D5141D7F /* CYLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C214AE3042F9AC22B88B80D2EFD5083 /* CYLConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC5CBD61B086A4D9B96EE86E5A3A6999 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 991C837FA32BC487BAE468498732218B /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		F17C0293DA0D9481B85D1D75337EA7A4 /* UITabBarItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7A88B970794C37717B0E2026C4D393 /* UITabBarItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1C54E459FA88D37ECED52E620FBE047 /* NSDictionary+MTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7E1A137438BDD46054AED19E1D1654 /* NSDictionary+MTExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5E9EB3560313D1E101A1AFDB61CD5EB /* NSArray+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = E332DDEEA8131E82E5C4C4A3BAEE1C3F /* NSArray+Swizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F927098240341F5C152A3ACA2DEE4D0D /* CYLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF9E0A56BE3AC93441E7F29D672E65 /* CYLBaseTableViewController.m */; };
+		FB8FAED8DBE10E2B6D97DE8DBC36CEA4 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F2C0AEF5F97C45340874417C89972D /* NSObject+Swizzling.m */; };
+		FCAC2962AA83D0A7E704EF1CA8F78826 /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 971036EC2FC08D8ABD1D81149F9E9759 /* UIControl+CYLTabBarControllerExtention.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		136A951EAC2762DDC3AD000F740D6278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		424D8D6D7627BA9EB79FA50BBA214764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		6FFB1689FC5E9E6F2DE22CAB4B7C3346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8534B493C62D81C69516B0E9599CEF36;
+			remoteInfo = CYLTabBarController;
+		};
+		9A2AE2BFDC3D43FE2FA25EF8C89E7D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97665C792C004BE3B6CD6CB612B64E51;
+			remoteInfo = my_flutter_module;
+		};
+		9E7CBF61EEAB21C9F37FBADDA0F26840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		DB4DFFAD075EE9344BF93D8492DAADD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		E7439DB3F468A5352A95DF8FC29EE2B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBAFC9CFAA04AEB316725E2A3C948F61;
+			remoteInfo = MTCategoryComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C214AE3042F9AC22B88B80D2EFD5083 /* CYLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLConstants.h; path = CYLTabBarController/CYLConstants.h; sourceTree = "<group>"; };
+		0FA71E6DEFA4BFFDD3D43118968F56DA /* Pods-FlutterPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		11DF9A8847D8C14A44A636A0458670E7 /* CYLTabBar+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CYLTabBar+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/CYLTabBar+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		12DA3FE5B811A78DA121E2762D1CADCC /* UIBarButtonItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		13D980D9B1A0E924795BCAAD94882559 /* MTCategoryComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTCategoryComponent-dummy.m"; sourceTree = "<group>"; };
+		144F6ECABA32A02FE56BF4F5F5034395 /* UIColor+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/UIKit/UIColor+MTExtension.m"; sourceTree = "<group>"; };
+		1862726CA2FC00D569FF64BCC4A94EF4 /* CYLPlusButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLPlusButton.m; path = CYLTabBarController/CYLPlusButton.m; sourceTree = "<group>"; };
+		211E7E2DC427127A4CFA7A764C028299 /* CYLTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBarController.m; path = CYLTabBarController/CYLTabBarController.m; sourceTree = "<group>"; };
+		2847E5A6C14244E059375CB76ADC701C /* UIImage+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIImage+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2AC2E16FD795DAB91A01E86E2E17456E /* my_flutter_module.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = my_flutter_module.release.xcconfig; sourceTree = "<group>"; };
+		2DBB7F4E83F41A561DBDD67D46335A7D /* UIImage+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/UIKit/UIImage+MTExtension.h"; sourceTree = "<group>"; };
+		2E9D821C3440E9585E9653F480D1343A /* NSString+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSString+MTExtension.m"; sourceTree = "<group>"; };
+		2EA3FBF7A9B1F225C95CD44B0DF7F039 /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		304A49F26A587FFEE08460DDA6B5C0D5 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31C59E47CE7EE9519A11C25DBD4C040C /* NSDate+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSDate+MTExtension.m"; sourceTree = "<group>"; };
+		3213B84B28544D5AD3F24A2B8843615A /* Pods-FlutterPlayground-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterPlayground-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3480B808646C5ABD7852EF955EF55172 /* Pods-FlutterPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		38DD1CEE08B447340B78E845C873C3BA /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		3952C355338A1A482A975C33070ADE46 /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		3BAE1DF12B374D835E8E4FF84B21BFB4 /* Pods-FlutterPlayground-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterPlayground-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EE7176BE88AB3417E2EDAE7E797C7C4 /* UIImage+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIImage+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		4061CAD5FBFA00436CD8B0AC18032CB0 /* CYLTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.release.xcconfig; sourceTree = "<group>"; };
+		461FDF286830C44EB7524CE2EC5FD78A /* CYLBaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseTableViewController.h; path = CYLTabBarController/CYLBaseTableViewController.h; sourceTree = "<group>"; };
+		47CBCE23F22012BFC3E9DFFB4A0EDE57 /* NSMutableDictionary+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSMutableDictionary+MTExtension.m"; sourceTree = "<group>"; };
+		4874DE8EB952B9726DCC1F80B9ACF673 /* NSString+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSString+MTExtension.h"; sourceTree = "<group>"; };
+		4A4B782B47814460D2CFDEBCC51C566F /* libMTCategoryComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTCategoryComponent.a; path = libMTCategoryComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5068827308412974BB18E0FBFC985948 /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		515B8F4997715CFF82CC8434DFB1B7D7 /* NSDictionary+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSDictionary+MTExtension.m"; sourceTree = "<group>"; };
+		5637612D3415E93A48C56219E09A5303 /* NSMutableDictionary+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Swizzling.h"; path = "MTCategoryComponent/Classes/Categories/Swizzling/NSMutableDictionary+Swizzling.h"; sourceTree = "<group>"; };
+		56768EC4C8CE6D1300441F175CB8C40F /* UIBarButtonItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		57247B8BE31994041595EA7229D25381 /* CYLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBadgeProtocol.h; path = CYLTabBarController/CYLBadgeProtocol.h; sourceTree = "<group>"; };
+		58131570957A9803FF03A79CCAD56616 /* NSMutableDictionary+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Swizzling.m"; path = "MTCategoryComponent/Classes/Categories/Swizzling/NSMutableDictionary+Swizzling.m"; sourceTree = "<group>"; };
+		5C0785B2FEA76F54FBBAB2683159E8A1 /* CYLTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		5E7E1A137438BDD46054AED19E1D1654 /* NSDictionary+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSDictionary+MTExtension.h"; sourceTree = "<group>"; };
+		5EC15DDF8A586644A8A76A72D9756A44 /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
+		5EE73AC279B1F6F946BF043A258E7853 /* CYLTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBar.h; path = CYLTabBarController/CYLTabBar.h; sourceTree = "<group>"; };
+		635C267567FBBAB316345B3997287081 /* my_flutter_module.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = my_flutter_module.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		63D6320DD9009BF1C3D42714779932C0 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		649C6E26F1EAE4AC015235853B7F02FC /* Pods-FlutterPlayground-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlutterPlayground-frameworks.sh"; sourceTree = "<group>"; };
+		66B3B55F6BE0DD2D23928F16C6DDE409 /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
+		6772FD8BF0641BF1BB5635EBC5AFDE77 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69E36BC27B27DC345932600053336550 /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
+		6A7A88B970794C37717B0E2026C4D393 /* UITabBarItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		6EC409BD12AAAEEE4922C82DFCABA668 /* NSObject+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSObject+MTExtension.m"; sourceTree = "<group>"; };
+		715C18F5A73F33C481DDDEC946858D33 /* MTCategoryComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTCategoryComponent.debug.xcconfig; sourceTree = "<group>"; };
+		788CBBC4BDB3FAFF88D80D14F05B6137 /* CYLBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseNavigationController.h; path = CYLTabBarController/CYLBaseNavigationController.h; sourceTree = "<group>"; };
+		7A4E4123DAD0974604D54D2C8E461708 /* CAAnimation+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+CYLBadgeExtention.m"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		7A8EBDCD0136136C2378B69579D99124 /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLBadgeExtention.m"; path = "CYLTabBarController/UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		7AB354C6D31153EA97C5196EA57F3782 /* my_flutter_module.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = my_flutter_module.debug.xcconfig; sourceTree = "<group>"; };
+		80317009EFF2CB8E2471363DBF99524A /* UIViewController+CYLNavigationControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLNavigationControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.m"; sourceTree = "<group>"; };
+		84F15084786BA4EA4C3103236891A444 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		8634131EC3453ACAAB09BC70FC5760FE /* NSArray+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Swizzling.m"; path = "MTCategoryComponent/Classes/Categories/Swizzling/NSArray+Swizzling.m"; sourceTree = "<group>"; };
+		88C4B1ECA51FFDF5FA47A6D0B39426AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8ECE903527475888CB67F957EB4BA825 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		906A19E93F2CFBE91C4D117B04626B12 /* libCYLTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCYLTabBarController.a; path = libCYLTabBarController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		933C15C35E1AB43B9800872BBB952FB1 /* NSData+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSData+MTExtension.m"; sourceTree = "<group>"; };
+		951FEFFD8A50EB20E27EF344C733A8C1 /* CYLTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBarController.h; path = CYLTabBarController/CYLTabBarController.h; sourceTree = "<group>"; };
+		971036EC2FC08D8ABD1D81149F9E9759 /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		9745D1A9E1FD8E74F7CC3B1FD0AC5511 /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		991C837FA32BC487BAE468498732218B /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		9A1047DC53814319107F15E5B2FD1CAD /* CAAnimation+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+CYLBadgeExtention.h"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		9C3047BFF33B9B76DBC054D8EB65780C /* CYLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseViewController.m; path = CYLTabBarController/CYLBaseViewController.m; sourceTree = "<group>"; };
+		9C45AA33C3580A3F63B2B439AC2C7942 /* libPods-FlutterPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FlutterPlayground.a"; path = "libPods-FlutterPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE3F6C977082F771E32D3FA6DDA244E /* CYLTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBarController-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1902111FAB87C60E1D7E596F3BA7E16 /* NSDate+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSDate+MTExtension.h"; sourceTree = "<group>"; };
+		AE531E405BC3151FC0F1277C5B8560CE /* NSObject+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Swizzling.h"; path = "MTCategoryComponent/Classes/Categories/Swizzling/NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		B586B77F7F9000BD54304C5091426725 /* FlutterPluginRegistrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-umbrella.h"; sourceTree = "<group>"; };
+		B6D93ABE23EB3C434F25354631014AB1 /* Pods-FlutterPlayground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterPlayground-dummy.m"; sourceTree = "<group>"; };
+		B9C79B09156B0ABBD979BE0C6CFF4744 /* UIImage+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/UIKit/UIImage+MTExtension.m"; sourceTree = "<group>"; };
+		BA43E792B1C2516EB55124D64BE15DC1 /* NSArray+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSArray+MTExtension.m"; sourceTree = "<group>"; };
+		BDF7811F520866E4FF73DB02C3388D73 /* MTCategoryComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTCategoryComponent.release.xcconfig; sourceTree = "<group>"; };
+		C0F9157EAE6A0827A2D56597380E3CA3 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		C519CDC9748EDAC2794D70577D9B6FC7 /* CYLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseViewController.h; path = CYLTabBarController/CYLBaseViewController.h; sourceTree = "<group>"; };
+		CAC787C6BF3C0508DA464C54EAEC16AE /* NSMutableArray+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSMutableArray+MTExtension.h"; sourceTree = "<group>"; };
+		CF5CE7643CF19179D370EE3EDEB87C1F /* CYLTabBar+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CYLTabBar+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/CYLTabBar+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		D297C91032775FDBC8B2AB8397062CCD /* FlutterPluginRegistrant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterPluginRegistrant.modulemap; sourceTree = "<group>"; };
+		D2F2C0AEF5F97C45340874417C89972D /* NSObject+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Swizzling.m"; path = "MTCategoryComponent/Classes/Categories/Swizzling/NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		D4C94D02ABBE4657949463042E7D809D /* UIColor+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/UIKit/UIColor+MTExtension.h"; sourceTree = "<group>"; };
+		D66A75D6DBDBA4312B8891A311911174 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		D6E21C8BF33543B693DD1C48E7198C7A /* NSArray+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSArray+MTExtension.h"; sourceTree = "<group>"; };
+		D9C9816CA43ACCF8E67ECF83C3C9ECA5 /* MTCategoryComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTCategoryComponent-prefix.pch"; sourceTree = "<group>"; };
+		DA6608C458A6AE3C341A60635CAD949D /* NSMutableDictionary+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSMutableDictionary+MTExtension.h"; sourceTree = "<group>"; };
+		DE19D851E118523F4463AF92A2AC7324 /* UIColor+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIColor+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		DE515850C0991697A574CF81947D92E8 /* NSMutableArray+MTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+MTExtension.m"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSMutableArray+MTExtension.m"; sourceTree = "<group>"; };
+		DF7C6EBB9161EEF650EC12B4BB67E628 /* libFlutterPluginRegistrant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFlutterPluginRegistrant.a; path = libFlutterPluginRegistrant.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E332DDEEA8131E82E5C4C4A3BAEE1C3F /* NSArray+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Swizzling.h"; path = "MTCategoryComponent/Classes/Categories/Swizzling/NSArray+Swizzling.h"; sourceTree = "<group>"; };
+		E35FC7E199DC22A0D5A3B9B5C5557E84 /* NSObject+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSObject+MTExtension.h"; sourceTree = "<group>"; };
+		E3AD4C3F6ABD89ADB267C2C1829728CF /* CYLPlusButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLPlusButton.h; path = CYLTabBarController/CYLPlusButton.h; sourceTree = "<group>"; };
+		E7BC10C07B356312DED7A86207013171 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		E848AF9A375BB591F6593757CF298256 /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		E8B770E32CAC3CA1C73247E46958BAE2 /* CYLTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBar.m; path = CYLTabBarController/CYLTabBar.m; sourceTree = "<group>"; };
+		E94C012C2ECEBB3E9B27BDFCFE32CCE1 /* NSData+MTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+MTExtension.h"; path = "MTCategoryComponent/Classes/Categories/Foundation/NSData+MTExtension.h"; sourceTree = "<group>"; };
+		EA8FB9F3A807A156D50C3FD4FB2F8073 /* NSObject+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/NSObject+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		F0CF9E0A56BE3AC93441E7F29D672E65 /* CYLBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseTableViewController.m; path = CYLTabBarController/CYLBaseTableViewController.m; sourceTree = "<group>"; };
+		F0F8FB9E5C3D6FE636C1290862E2EE06 /* UIColor+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIColor+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		F1342C435D22526E979C04CB8752A99A /* UIViewController+CYLNavigationControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLNavigationControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.h"; sourceTree = "<group>"; };
+		F30A458A562CC4A0F4AB3C358D836532 /* NSObject+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/NSObject+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		F4AB68DD7C47B5518F7CC6269240DB9C /* UIView+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLBadgeExtention.h"; path = "CYLTabBarController/UIView+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		F4AD3038654977A03035B8867235167E /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
+		F4D3D014E1321A989AAA292109EFCA2B /* MTCategoryComponentHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTCategoryComponentHeader.h; path = MTCategoryComponent/Classes/Categories/MTCategoryComponentHeader.h; sourceTree = "<group>"; };
+		F5CC638A18E375BD8EEA2244C1A6B600 /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		F8E31CA28F7122338D8A8A4754D5A489 /* CYLTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.debug.xcconfig; sourceTree = "<group>"; };
+		FF685E271B1844BBCB902D11BC271269 /* CYLBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseNavigationController.m; path = CYLTabBarController/CYLBaseNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		066D09669C299966E429BAE90695E877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FE0C80D28E57FFADC8B726955B9703E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B5478D331166EA8ABA356FA278F67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A0CFF294F4072E0DC89F48A5618C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CBEDFBA2267BCA6D3B890480C3B3572 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				635C267567FBBAB316345B3997287081 /* my_flutter_module.podspec */,
+				88C4B1ECA51FFDF5FA47A6D0B39426AF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0E11CDBA3E6823B217E0463AEE2A6059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7BC10C07B356312DED7A86207013171 /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		149B12A00617008F7FF1C7C57DC2908F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F15084786BA4EA4C3103236891A444 /* App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15B47E5FF75ADE0F2464C984C2110F57 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				791D0B118635ED6F7689F7212BE39D5A /* Pods-FlutterPlayground */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		16265A0E1102B11481240D6E2BBD12F5 /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				27E8FE28E6CE7A7556708B4A760E26FB /* Core */,
+				E83C7A95780AF4BB850E10071876F59C /* Support Files */,
+			);
+			name = CYLTabBarController;
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		27E8FE28E6CE7A7556708B4A760E26FB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9A1047DC53814319107F15E5B2FD1CAD /* CAAnimation+CYLBadgeExtention.h */,
+				7A4E4123DAD0974604D54D2C8E461708 /* CAAnimation+CYLBadgeExtention.m */,
+				57247B8BE31994041595EA7229D25381 /* CYLBadgeProtocol.h */,
+				788CBBC4BDB3FAFF88D80D14F05B6137 /* CYLBaseNavigationController.h */,
+				FF685E271B1844BBCB902D11BC271269 /* CYLBaseNavigationController.m */,
+				461FDF286830C44EB7524CE2EC5FD78A /* CYLBaseTableViewController.h */,
+				F0CF9E0A56BE3AC93441E7F29D672E65 /* CYLBaseTableViewController.m */,
+				C519CDC9748EDAC2794D70577D9B6FC7 /* CYLBaseViewController.h */,
+				9C3047BFF33B9B76DBC054D8EB65780C /* CYLBaseViewController.m */,
+				0C214AE3042F9AC22B88B80D2EFD5083 /* CYLConstants.h */,
+				E3AD4C3F6ABD89ADB267C2C1829728CF /* CYLPlusButton.h */,
+				1862726CA2FC00D569FF64BCC4A94EF4 /* CYLPlusButton.m */,
+				5EE73AC279B1F6F946BF043A258E7853 /* CYLTabBar.h */,
+				E8B770E32CAC3CA1C73247E46958BAE2 /* CYLTabBar.m */,
+				11DF9A8847D8C14A44A636A0458670E7 /* CYLTabBar+CYLTabBarControllerExtention.h */,
+				CF5CE7643CF19179D370EE3EDEB87C1F /* CYLTabBar+CYLTabBarControllerExtention.m */,
+				951FEFFD8A50EB20E27EF344C733A8C1 /* CYLTabBarController.h */,
+				211E7E2DC427127A4CFA7A764C028299 /* CYLTabBarController.m */,
+				EA8FB9F3A807A156D50C3FD4FB2F8073 /* NSObject+CYLTabBarControllerExtention.h */,
+				F30A458A562CC4A0F4AB3C358D836532 /* NSObject+CYLTabBarControllerExtention.m */,
+				56768EC4C8CE6D1300441F175CB8C40F /* UIBarButtonItem+CYLBadgeExtention.h */,
+				12DA3FE5B811A78DA121E2762D1CADCC /* UIBarButtonItem+CYLBadgeExtention.m */,
+				DE19D851E118523F4463AF92A2AC7324 /* UIColor+CYLTabBarControllerExtention.h */,
+				F0F8FB9E5C3D6FE636C1290862E2EE06 /* UIColor+CYLTabBarControllerExtention.m */,
+				E848AF9A375BB591F6593757CF298256 /* UIControl+CYLTabBarControllerExtention.h */,
+				971036EC2FC08D8ABD1D81149F9E9759 /* UIControl+CYLTabBarControllerExtention.m */,
+				3EE7176BE88AB3417E2EDAE7E797C7C4 /* UIImage+CYLTabBarControllerExtention.h */,
+				2847E5A6C14244E059375CB76ADC701C /* UIImage+CYLTabBarControllerExtention.m */,
+				6A7A88B970794C37717B0E2026C4D393 /* UITabBarItem+CYLBadgeExtention.h */,
+				2EA3FBF7A9B1F225C95CD44B0DF7F039 /* UITabBarItem+CYLBadgeExtention.m */,
+				3952C355338A1A482A975C33070ADE46 /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				991C837FA32BC487BAE468498732218B /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				F4AB68DD7C47B5518F7CC6269240DB9C /* UIView+CYLBadgeExtention.h */,
+				7A8EBDCD0136136C2378B69579D99124 /* UIView+CYLBadgeExtention.m */,
+				5068827308412974BB18E0FBFC985948 /* UIView+CYLTabBarControllerExtention.h */,
+				F5CC638A18E375BD8EEA2244C1A6B600 /* UIView+CYLTabBarControllerExtention.m */,
+				F1342C435D22526E979C04CB8752A99A /* UIViewController+CYLNavigationControllerExtention.h */,
+				80317009EFF2CB8E2471363DBF99524A /* UIViewController+CYLNavigationControllerExtention.m */,
+				63D6320DD9009BF1C3D42714779932C0 /* UIViewController+CYLTabBarControllerExtention.h */,
+				9745D1A9E1FD8E74F7CC3B1FD0AC5511 /* UIViewController+CYLTabBarControllerExtention.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		303B45C2491C242E38BEB43E7F527C39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D297C91032775FDBC8B2AB8397062CCD /* FlutterPluginRegistrant.modulemap */,
+				66B3B55F6BE0DD2D23928F16C6DDE409 /* FlutterPluginRegistrant-dummy.m */,
+				69E36BC27B27DC345932600053336550 /* FlutterPluginRegistrant-prefix.pch */,
+				B586B77F7F9000BD54304C5091426725 /* FlutterPluginRegistrant-umbrella.h */,
+				5EC15DDF8A586644A8A76A72D9756A44 /* FlutterPluginRegistrant.debug.xcconfig */,
+				F4AD3038654977A03035B8867235167E /* FlutterPluginRegistrant.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Example/Pods/Target Support Files/FlutterPluginRegistrant";
+			sourceTree = "<group>";
+		};
+		4510907195478F9FA3897194978FDBC6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E89DDE040C6DC254074E76978DCDC4A6 /* Flutter */,
+				FAC4B6E1A8BA4C17C0092652A04AE0D4 /* FlutterPluginRegistrant */,
+				6939F4A4994551D6D6B1ADBE1B9534CC /* my_flutter_module */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6939F4A4994551D6D6B1ADBE1B9534CC /* my_flutter_module */ = {
+			isa = PBXGroup;
+			children = (
+				149B12A00617008F7FF1C7C57DC2908F /* Frameworks */,
+				0CBEDFBA2267BCA6D3B890480C3B3572 /* Pod */,
+				87AEA4CA68E58B19DB3018DF836327CB /* Support Files */,
+			);
+			name = my_flutter_module;
+			path = ../../my_flutter_module/.ios/Flutter;
+			sourceTree = "<group>";
+		};
+		791D0B118635ED6F7689F7212BE39D5A /* Pods-FlutterPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				3213B84B28544D5AD3F24A2B8843615A /* Pods-FlutterPlayground-acknowledgements.markdown */,
+				3BAE1DF12B374D835E8E4FF84B21BFB4 /* Pods-FlutterPlayground-acknowledgements.plist */,
+				B6D93ABE23EB3C434F25354631014AB1 /* Pods-FlutterPlayground-dummy.m */,
+				649C6E26F1EAE4AC015235853B7F02FC /* Pods-FlutterPlayground-frameworks.sh */,
+				0FA71E6DEFA4BFFDD3D43118968F56DA /* Pods-FlutterPlayground.debug.xcconfig */,
+				3480B808646C5ABD7852EF955EF55172 /* Pods-FlutterPlayground.release.xcconfig */,
+			);
+			name = "Pods-FlutterPlayground";
+			path = "Target Support Files/Pods-FlutterPlayground";
+			sourceTree = "<group>";
+		};
+		87AEA4CA68E58B19DB3018DF836327CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AB354C6D31153EA97C5196EA57F3782 /* my_flutter_module.debug.xcconfig */,
+				2AC2E16FD795DAB91A01E86E2E17456E /* my_flutter_module.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Example/Pods/Target Support Files/my_flutter_module";
+			sourceTree = "<group>";
+		};
+		B709925B2DA113369206B06B68EA10A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE903527475888CB67F957EB4BA825 /* Flutter.debug.xcconfig */,
+				D66A75D6DBDBA4312B8891A311911174 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Example/Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		BB4856498ADDDF2C6C6B4640472AF262 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D980D9B1A0E924795BCAAD94882559 /* MTCategoryComponent-dummy.m */,
+				D9C9816CA43ACCF8E67ECF83C3C9ECA5 /* MTCategoryComponent-prefix.pch */,
+				715C18F5A73F33C481DDDEC946858D33 /* MTCategoryComponent.debug.xcconfig */,
+				BDF7811F520866E4FF73DB02C3388D73 /* MTCategoryComponent.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTCategoryComponent";
+			sourceTree = "<group>";
+		};
+		C56F20081B8FA1D3A4334153FAAFF29F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6772FD8BF0641BF1BB5635EBC5AFDE77 /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CA878055F80457D28AC2E96985C9E721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				906A19E93F2CFBE91C4D117B04626B12 /* libCYLTabBarController.a */,
+				DF7C6EBB9161EEF650EC12B4BB67E628 /* libFlutterPluginRegistrant.a */,
+				4A4B782B47814460D2CFDEBCC51C566F /* libMTCategoryComponent.a */,
+				9C45AA33C3580A3F63B2B439AC2C7942 /* libPods-FlutterPlayground.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4510907195478F9FA3897194978FDBC6 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				DC3CC31E94171B78634A7326CCE36075 /* Pods */,
+				CA878055F80457D28AC2E96985C9E721 /* Products */,
+				15B47E5FF75ADE0F2464C984C2110F57 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC3CC31E94171B78634A7326CCE36075 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16265A0E1102B11481240D6E2BBD12F5 /* CYLTabBarController */,
+				E0F3AF82DF5CB2158141516501EABD6B /* MTCategoryComponent */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0F3AF82DF5CB2158141516501EABD6B /* MTCategoryComponent */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3D014E1321A989AAA292109EFCA2B /* MTCategoryComponentHeader.h */,
+				D6E21C8BF33543B693DD1C48E7198C7A /* NSArray+MTExtension.h */,
+				BA43E792B1C2516EB55124D64BE15DC1 /* NSArray+MTExtension.m */,
+				E332DDEEA8131E82E5C4C4A3BAEE1C3F /* NSArray+Swizzling.h */,
+				8634131EC3453ACAAB09BC70FC5760FE /* NSArray+Swizzling.m */,
+				E94C012C2ECEBB3E9B27BDFCFE32CCE1 /* NSData+MTExtension.h */,
+				933C15C35E1AB43B9800872BBB952FB1 /* NSData+MTExtension.m */,
+				A1902111FAB87C60E1D7E596F3BA7E16 /* NSDate+MTExtension.h */,
+				31C59E47CE7EE9519A11C25DBD4C040C /* NSDate+MTExtension.m */,
+				5E7E1A137438BDD46054AED19E1D1654 /* NSDictionary+MTExtension.h */,
+				515B8F4997715CFF82CC8434DFB1B7D7 /* NSDictionary+MTExtension.m */,
+				CAC787C6BF3C0508DA464C54EAEC16AE /* NSMutableArray+MTExtension.h */,
+				DE515850C0991697A574CF81947D92E8 /* NSMutableArray+MTExtension.m */,
+				DA6608C458A6AE3C341A60635CAD949D /* NSMutableDictionary+MTExtension.h */,
+				47CBCE23F22012BFC3E9DFFB4A0EDE57 /* NSMutableDictionary+MTExtension.m */,
+				5637612D3415E93A48C56219E09A5303 /* NSMutableDictionary+Swizzling.h */,
+				58131570957A9803FF03A79CCAD56616 /* NSMutableDictionary+Swizzling.m */,
+				E35FC7E199DC22A0D5A3B9B5C5557E84 /* NSObject+MTExtension.h */,
+				6EC409BD12AAAEEE4922C82DFCABA668 /* NSObject+MTExtension.m */,
+				AE531E405BC3151FC0F1277C5B8560CE /* NSObject+Swizzling.h */,
+				D2F2C0AEF5F97C45340874417C89972D /* NSObject+Swizzling.m */,
+				4874DE8EB952B9726DCC1F80B9ACF673 /* NSString+MTExtension.h */,
+				2E9D821C3440E9585E9653F480D1343A /* NSString+MTExtension.m */,
+				D4C94D02ABBE4657949463042E7D809D /* UIColor+MTExtension.h */,
+				144F6ECABA32A02FE56BF4F5F5034395 /* UIColor+MTExtension.m */,
+				2DBB7F4E83F41A561DBDD67D46335A7D /* UIImage+MTExtension.h */,
+				B9C79B09156B0ABBD979BE0C6CFF4744 /* UIImage+MTExtension.m */,
+				BB4856498ADDDF2C6C6B4640472AF262 /* Support Files */,
+			);
+			name = MTCategoryComponent;
+			path = MTCategoryComponent;
+			sourceTree = "<group>";
+		};
+		E83C7A95780AF4BB850E10071876F59C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CE3F6C977082F771E32D3FA6DDA244E /* CYLTabBarController-dummy.m */,
+				5C0785B2FEA76F54FBBAB2683159E8A1 /* CYLTabBarController-prefix.pch */,
+				F8E31CA28F7122338D8A8A4754D5A489 /* CYLTabBarController.debug.xcconfig */,
+				4061CAD5FBFA00436CD8B0AC18032CB0 /* CYLTabBarController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CYLTabBarController";
+			sourceTree = "<group>";
+		};
+		E89DDE040C6DC254074E76978DCDC4A6 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				0E11CDBA3E6823B217E0463AEE2A6059 /* Frameworks */,
+				C56F20081B8FA1D3A4334153FAAFF29F /* Pod */,
+				B709925B2DA113369206B06B68EA10A5 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../../my_flutter_module/.ios/Flutter/engine;
+			sourceTree = "<group>";
+		};
+		FA808914BB2E146034C8A54AFB1035A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				304A49F26A587FFEE08460DDA6B5C0D5 /* FlutterPluginRegistrant.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FAC4B6E1A8BA4C17C0092652A04AE0D4 /* FlutterPluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				C0F9157EAE6A0827A2D56597380E3CA3 /* GeneratedPluginRegistrant.h */,
+				38DD1CEE08B447340B78E845C873C3BA /* GeneratedPluginRegistrant.m */,
+				FA808914BB2E146034C8A54AFB1035A8 /* Pod */,
+				303B45C2491C242E38BEB43E7F527C39 /* Support Files */,
+			);
+			name = FlutterPluginRegistrant;
+			path = ../../my_flutter_module/.ios/Flutter/FlutterPluginRegistrant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02F8E14C4C6A705CC94BB33D5648C426 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB85AEE1AB641101EBB256105174FDA /* MTCategoryComponentHeader.h in Headers */,
+				C496D7852FA83624BC210F61561A7E9A /* NSArray+MTExtension.h in Headers */,
+				F5E9EB3560313D1E101A1AFDB61CD5EB /* NSArray+Swizzling.h in Headers */,
+				0CFEE7357D09344FEF39967536E20ED1 /* NSData+MTExtension.h in Headers */,
+				1E502BD8B515C80BB896E7519516068D /* NSDate+MTExtension.h in Headers */,
+				F1C54E459FA88D37ECED52E620FBE047 /* NSDictionary+MTExtension.h in Headers */,
+				0F4ABC7D0AD985126C429938EF793834 /* NSMutableArray+MTExtension.h in Headers */,
+				10D9785FF7615A6FEDACD56F75E7A5CE /* NSMutableDictionary+MTExtension.h in Headers */,
+				993D83F58774EAA3EF0928DE292C6B29 /* NSMutableDictionary+Swizzling.h in Headers */,
+				8A14AD0139D67FD2D8F4EAA4377E2E2A /* NSObject+MTExtension.h in Headers */,
+				9A6C6517C2021485CF930B406717288F /* NSObject+Swizzling.h in Headers */,
+				6D2120EEC7A4DA147E22DE28EA7E9D92 /* NSString+MTExtension.h in Headers */,
+				BB81E1965B6C313E7AE508FB1DD48130 /* UIColor+MTExtension.h in Headers */,
+				96839C0301DB7FF2F4150641D254E345 /* UIImage+MTExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0586C872B4B7338A42E8DE8E170FB0C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78D2747C1EF1E5CA0D0B1008A3CCDD5 /* FlutterPluginRegistrant-umbrella.h in Headers */,
+				BF1D156564A3725C3B1D2531F5E4F87A /* GeneratedPluginRegistrant.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3021FF507708946FC5FF7193D76ACF0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BE6D21546EAAFB892A4BAFE6E6EFFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC10479EEB1FF57B324A6F497478317 /* CAAnimation+CYLBadgeExtention.h in Headers */,
+				ADE9218AB6934CDFE20F26B95E57C8ED /* CYLBadgeProtocol.h in Headers */,
+				9865184D68C9F42E9D9FAC8E1F064407 /* CYLBaseNavigationController.h in Headers */,
+				2F198F661A26CA430F2DAE87F73521D0 /* CYLBaseTableViewController.h in Headers */,
+				CEC13B6A83C7977B60F217666A4A0B28 /* CYLBaseViewController.h in Headers */,
+				EC507B7C206F097B5B4F08A6D5141D7F /* CYLConstants.h in Headers */,
+				E16934A6251FEE1ED00CFB4368C764EF /* CYLPlusButton.h in Headers */,
+				D76251A6C80C194D59BAD686FC622B77 /* CYLTabBar+CYLTabBarControllerExtention.h in Headers */,
+				64B242FCB733D9D17F2CE98C1A36C811 /* CYLTabBar.h in Headers */,
+				BDA77A6756453DA98197AACAE7A95CF7 /* CYLTabBarController.h in Headers */,
+				6D72941BAD50DD39577C35EF04512792 /* NSObject+CYLTabBarControllerExtention.h in Headers */,
+				3549A100F6A0725C399733E17E07D0BF /* UIBarButtonItem+CYLBadgeExtention.h in Headers */,
+				9EF189E65648934156E08868288AA66A /* UIColor+CYLTabBarControllerExtention.h in Headers */,
+				B5F59742B2FF034E3E8401297FCB8C0D /* UIControl+CYLTabBarControllerExtention.h in Headers */,
+				BD90F65457B6EB11ADD675E3AFBD96B4 /* UIImage+CYLTabBarControllerExtention.h in Headers */,
+				F17C0293DA0D9481B85D1D75337EA7A4 /* UITabBarItem+CYLBadgeExtention.h in Headers */,
+				9D6AF0CA39F89C08E2CF768C3C3001C7 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */,
+				E86750906F59320221EE094A1FCD4067 /* UIView+CYLBadgeExtention.h in Headers */,
+				99C84EC67FEBF0F224574970D5534B69 /* UIView+CYLTabBarControllerExtention.h in Headers */,
+				C3270646E3CD681DDBFB5EE521D50B8E /* UIViewController+CYLNavigationControllerExtention.h in Headers */,
+				D393CD175B73AB48AF4F817231CD134B /* UIViewController+CYLTabBarControllerExtention.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 617266B2B40A653817E37E0D32F87CB1 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */;
+			buildPhases = (
+				0586C872B4B7338A42E8DE8E170FB0C6 /* Headers */,
+				49924761EDFD0BC42E1D78D4A97EFA2D /* Sources */,
+				78B5478D331166EA8ABA356FA278F67C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13EABEB4512CACD6233A8F4D67189531 /* PBXTargetDependency */,
+			);
+			name = FlutterPluginRegistrant;
+			productName = FlutterPluginRegistrant;
+			productReference = DF7C6EBB9161EEF650EC12B4BB67E628 /* libFlutterPluginRegistrant.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD352778D3D19640E6EA4577DDCA2452 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */;
+			buildPhases = (
+				C5BE6D21546EAAFB892A4BAFE6E6EFFE /* Headers */,
+				4D8362223934E50F835576FC311929DB /* Sources */,
+				6FE0C80D28E57FFADC8B726955B9703E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLTabBarController;
+			productName = CYLTabBarController;
+			productReference = 906A19E93F2CFBE91C4D117B04626B12 /* libCYLTabBarController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6B4F53220A386E01B4168A165CD67BB /* Pods-FlutterPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805C87FE628BE90CF670DC5690D74AAB /* Build configuration list for PBXNativeTarget "Pods-FlutterPlayground" */;
+			buildPhases = (
+				3021FF507708946FC5FF7193D76ACF0E /* Headers */,
+				006F16802985CB7759B5AFF7E1D880B3 /* Sources */,
+				F2A0CFF294F4072E0DC89F48A5618C30 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541C6EDDD6DA4CB4F643B58D61E985B5 /* PBXTargetDependency */,
+				67631F37495B7B4F8B5C91E7F41245F3 /* PBXTargetDependency */,
+				D75D649BB199F29E7739CC6BD2827B2C /* PBXTargetDependency */,
+				6F00D75A4FD537E28956A24F77646216 /* PBXTargetDependency */,
+				436DAF4BC5A4EF52310E6EEE9055DF48 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlutterPlayground";
+			productName = "Pods-FlutterPlayground";
+			productReference = 9C45AA33C3580A3F63B2B439AC2C7942 /* libPods-FlutterPlayground.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BBAFC9CFAA04AEB316725E2A3C948F61 /* MTCategoryComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91C8F5D4DCCAD0D30792DC2DE4FB366 /* Build configuration list for PBXNativeTarget "MTCategoryComponent" */;
+			buildPhases = (
+				02F8E14C4C6A705CC94BB33D5648C426 /* Headers */,
+				BBF1ED2490045BFF3F99ABCF87E56EA7 /* Sources */,
+				066D09669C299966E429BAE90695E877 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTCategoryComponent;
+			productName = MTCategoryComponent;
+			productReference = 4A4B782B47814460D2CFDEBCC51C566F /* libMTCategoryComponent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CA878055F80457D28AC2E96985C9E721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */,
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */,
+				BBAFC9CFAA04AEB316725E2A3C948F61 /* MTCategoryComponent */,
+				97665C792C004BE3B6CD6CB612B64E51 /* my_flutter_module */,
+				B6B4F53220A386E01B4168A165CD67BB /* Pods-FlutterPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006F16802985CB7759B5AFF7E1D880B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDDDF40876697ACB969C6E9443A51EB /* Pods-FlutterPlayground-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49924761EDFD0BC42E1D78D4A97EFA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7441F4D5C2E9C3BC3A00107B797B4B3A /* FlutterPluginRegistrant-dummy.m in Sources */,
+				86507D966CE07114AD53C068C68C2A27 /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8362223934E50F835576FC311929DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C83D88913131B672FAC798B0307C26 /* CAAnimation+CYLBadgeExtention.m in Sources */,
+				3AE3F4B93B5A7551C5AF7241BABCFA86 /* CYLBaseNavigationController.m in Sources */,
+				F927098240341F5C152A3ACA2DEE4D0D /* CYLBaseTableViewController.m in Sources */,
+				30DE5CBAB153E04DE231C14B9ECB1FDF /* CYLBaseViewController.m in Sources */,
+				19F7000AF808310FBB4C70AA61FA3D14 /* CYLPlusButton.m in Sources */,
+				1BF0B9FBD525AD80AB7CA4F9E062D66B /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */,
+				4A00AD9DF572983961066CA58AB341F3 /* CYLTabBar.m in Sources */,
+				5E2A2BA7D376CEE44CE46335385F38D6 /* CYLTabBarController-dummy.m in Sources */,
+				7D4C08419F68251786F1F43A54F6E128 /* CYLTabBarController.m in Sources */,
+				63FAA34023BB30375F0C3BB5EFB081A7 /* NSObject+CYLTabBarControllerExtention.m in Sources */,
+				A1134C3948B6E3CC91E9D16C15DBF32A /* UIBarButtonItem+CYLBadgeExtention.m in Sources */,
+				9404B92F6779CFEA97D27E74F34E9023 /* UIColor+CYLTabBarControllerExtention.m in Sources */,
+				FCAC2962AA83D0A7E704EF1CA8F78826 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				66584524291FCEED64DCD1593E74370A /* UIImage+CYLTabBarControllerExtention.m in Sources */,
+				BC5CD7A7F8EADBB229F94C5E8738CDA5 /* UITabBarItem+CYLBadgeExtention.m in Sources */,
+				EC5CBD61B086A4D9B96EE86E5A3A6999 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				701CD75B63966D56E2D0589FA53C226F /* UIView+CYLBadgeExtention.m in Sources */,
+				9361B736B9B5A85A4D2441FF15ED01FA /* UIView+CYLTabBarControllerExtention.m in Sources */,
+				B0796DA4393FD99EFFE3D48B6D2BD1F2 /* UIViewController+CYLNavigationControllerExtention.m in Sources */,
+				581CC22607FB27E2E11E34C1E8F9FBB2 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF1ED2490045BFF3F99ABCF87E56EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0380D40E715B2062B350079D04366DF8 /* MTCategoryComponent-dummy.m in Sources */,
+				E06DC345C9E8C91832F92811B5EB5434 /* NSArray+MTExtension.m in Sources */,
+				C8F60662B23E7F4F76D07091699E4801 /* NSArray+Swizzling.m in Sources */,
+				EA47C9B1D7EEB406307C1B0060ADC3CE /* NSData+MTExtension.m in Sources */,
+				B8323DF0D8BE17E6DA75C46FD950ADCD /* NSDate+MTExtension.m in Sources */,
+				EC3D473E865ABE7312F7641BBF43D10D /* NSDictionary+MTExtension.m in Sources */,
+				5C79FB7665C4782C8211CF7E091547AE /* NSMutableArray+MTExtension.m in Sources */,
+				55C7DF74451FC4F930DA9A9D110AE9F3 /* NSMutableDictionary+MTExtension.m in Sources */,
+				2EFFF72D2D5D46EC291CC19F98A49DEB /* NSMutableDictionary+Swizzling.m in Sources */,
+				7D9E913DA86FB3558CCA62E71058E799 /* NSObject+MTExtension.m in Sources */,
+				FB8FAED8DBE10E2B6D97DE8DBC36CEA4 /* NSObject+Swizzling.m in Sources */,
+				C333A92C9F2D882E089C41F0EF7FDAAD /* NSString+MTExtension.m in Sources */,
+				76D8A53D51D7C2615B54CB603138D26E /* UIColor+MTExtension.m in Sources */,
+				99D781A183F5F091D2A193438B9700FF /* UIImage+MTExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13EABEB4512CACD6233A8F4D67189531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 136A951EAC2762DDC3AD000F740D6278 /* PBXContainerItemProxy */;
+		};
+		436DAF4BC5A4EF52310E6EEE9055DF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = my_flutter_module;
+			target = 97665C792C004BE3B6CD6CB612B64E51 /* my_flutter_module */;
+			targetProxy = 9A2AE2BFDC3D43FE2FA25EF8C89E7D21 /* PBXContainerItemProxy */;
+		};
+		4BFE63A1DD6BE5B368E1019EC6382734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 9E7CBF61EEAB21C9F37FBADDA0F26840 /* PBXContainerItemProxy */;
+		};
+		541C6EDDD6DA4CB4F643B58D61E985B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYLTabBarController;
+			target = 8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */;
+			targetProxy = 6FFB1689FC5E9E6F2DE22CAB4B7C3346 /* PBXContainerItemProxy */;
+		};
+		67631F37495B7B4F8B5C91E7F41245F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = DB4DFFAD075EE9344BF93D8492DAADD3 /* PBXContainerItemProxy */;
+		};
+		6F00D75A4FD537E28956A24F77646216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTCategoryComponent;
+			target = BBAFC9CFAA04AEB316725E2A3C948F61 /* MTCategoryComponent */;
+			targetProxy = E7439DB3F468A5352A95DF8FC29EE2B1 /* PBXContainerItemProxy */;
+		};
+		D75D649BB199F29E7739CC6BD2827B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 424D8D6D7627BA9EB79FA50BBA214764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D35BC6CAD278CEE23B7EDC369D04E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4AD3038654977A03035B8867235167E /* FlutterPluginRegistrant.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A205B4865B345E6E72371EBDCC957E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF7811F520866E4FF73DB02C3388D73 /* MTCategoryComponent.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTCategoryComponent/MTCategoryComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MTCategoryComponent;
+				PRODUCT_NAME = MTCategoryComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3592DAA41A30D753FFF3C1F26E24C866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715C18F5A73F33C481DDDEC946858D33 /* MTCategoryComponent.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MTCategoryComponent/MTCategoryComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MTCategoryComponent;
+				PRODUCT_NAME = MTCategoryComponent;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48D084479185BD39D862E4CE949DF1A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA71E6DEFA4BFFDD3D43118968F56DA /* Pods-FlutterPlayground.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F1BAC2752590AF109C78CAFD33D2DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECE903527475888CB67F957EB4BA825 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5361C8AB1327C904C64FC21A1227F8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC15DDF8A586644A8A76A72D9756A44 /* FlutterPluginRegistrant.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91849140B342C1FCF5C112E8D3B8EE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB354C6D31153EA97C5196EA57F3782 /* my_flutter_module.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97A3C48231C5E93A9D0FCDC5B5448139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3480B808646C5ABD7852EF955EF55172 /* Pods-FlutterPlayground.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DFA7D08415265C89B4959C7F4554A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A82083CAE88CCCFE109D4CC6190C9FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4061CAD5FBFA00436CD8B0AC18032CB0 /* CYLTabBarController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CYLTabBarController;
+				PRODUCT_NAME = CYLTabBarController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD019EEF769C3FE641DC2FE19D4240A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E31CA28F7122338D8A8A4754D5A489 /* CYLTabBarController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CYLTabBarController;
+				PRODUCT_NAME = CYLTabBarController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3DF0096D7A9F940D18E87DE20852D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC2E16FD795DAB91A01E86E2E17456E /* my_flutter_module.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFFAEACFCA0CF1FEEC85FD6CBBFF7E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66A75D6DBDBA4312B8891A311911174 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */,
+				9DFA7D08415265C89B4959C7F4554A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		617266B2B40A653817E37E0D32F87CB1 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5361C8AB1327C904C64FC21A1227F8EB /* Debug */,
+				0D35BC6CAD278CEE23B7EDC369D04E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805C87FE628BE90CF670DC5690D74AAB /* Build configuration list for PBXNativeTarget "Pods-FlutterPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D084479185BD39D862E4CE949DF1A0 /* Debug */,
+				97A3C48231C5E93A9D0FCDC5B5448139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26E11467D023FA6CDCE36F75198812F /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1BAC2752590AF109C78CAFD33D2DF0 /* Debug */,
+				CDFFAEACFCA0CF1FEEC85FD6CBBFF7E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91C8F5D4DCCAD0D30792DC2DE4FB366 /* Build configuration list for PBXNativeTarget "MTCategoryComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3592DAA41A30D753FFF3C1F26E24C866 /* Debug */,
+				1A205B4865B345E6E72371EBDCC957E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC729987B44DAEE29CEBFDAF4FE3B2DD /* Build configuration list for PBXAggregateTarget "my_flutter_module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91849140B342C1FCF5C112E8D3B8EE12 /* Debug */,
+				B3DF0096D7A9F940D18E87DE20852D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD352778D3D19640E6EA4577DDCA2452 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD019EEF769C3FE641DC2FE19D4240A7 /* Debug */,
+				A82083CAE88CCCFE109D4CC6190C9FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
